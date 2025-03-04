@@ -1,0 +1,41 @@
+#calculator {
+    border: 1.5px solid rgb(209, 18, 98);
+    background-color: lightpink;
+    border-radius: 10px;
+    width: 200px;
+  }
+  
+  #display {
+    margin: 10px;
+    width: 85%;
+    font-size: 25px;
+    border: 1.5px solid rgb(209, 18, 98);
+    background-color: white;
+    border-radius: 5px;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .button {
+    border: 1.5px solid rgb(209, 18, 98);
+    background-color: white;
+    border-radius: 10px;
+    width: 45px;
+    height: 45px;
+    margin: 3px;
+  }
+
+  .button:hover {
+    border: 1.5px solid rgb(209, 18, 98);
+    background-color: rgb(252, 208, 215);
+    border-radius: 10px;
+    width: 45px;
+    height: 45px;
+    margin: 3px;
+  }
+
+  
